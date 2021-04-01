@@ -4,7 +4,7 @@
   "description": "A CLI to manage a TODO list",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "MIT"
@@ -15,5 +15,8 @@
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
     "conf": "^9.0.2"
+  },
+  "bin": {
+    "todos": "index.js"
   }
 }
