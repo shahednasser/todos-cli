@@ -14,7 +14,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
-    "conf": "^9.0.2"
+    "conf": "^11.0.1"
   },
   "bin": {
     "todos": "index.js"
